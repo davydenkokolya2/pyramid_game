@@ -46,7 +46,6 @@
         android:layout_height="25dp"
         android:layout_marginTop="21dp"
         android:background="@drawable/icon_background_seek_bar"
-        android:progressDrawable="@drawable/icon_progress_seek_bar"
         android:thumb="@drawable/icon_seek_bar"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
         app:layout_constraintStart_toStartOf="@+id/textView6"
