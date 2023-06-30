@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pyramid_game</string>
+    <string name="settings">SETTINGS</string>
+    <string name="levels">LEVELS</string>
+    <string name="rules">RULES</string>
+    <string name="start">START</string>
+    <string name="members">MEMBERS</string>
+    <string name="colour_info">COLOUR\nINFO</string>
+</resources>
