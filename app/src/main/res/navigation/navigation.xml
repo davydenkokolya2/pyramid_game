@@ -40,4 +40,33 @@
         android:name="com.example.pyramid_game.ui.start.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" />
+    <fragment
+        android:id="@+id/level1Fragment"
+        android:name="com.example.pyramid_game.ui.level1.Level1Fragment"
+        android:label="fragment_level1"
+        tools:layout="@layout/fragment_level1" />
+    <fragment
+        android:id="@+id/level2Fragment"
+        android:name="com.example.pyramid_game.ui.level2.Level2Fragment"
+        android:label="fragment_level2"
+        tools:layout="@layout/fragment_level2" />
+    <fragment
+        android:id="@+id/level3Fragment"
+        android:name="com.example.pyramid_game.ui.level3.Level3Fragment"
+        android:label="fragment_level3"
+        tools:layout="@layout/fragment_level3" />
+    <fragment
+        android:id="@+id/level5Fragment"
+        android:name="com.example.pyramid_game.ui.level5.Level5Fragment"
+        android:label="fragment_level5"
+        tools:layout="@layout/fragment_level5" />
+    <fragment
+        android:id="@+id/level4Fragment"
+        android:name="com.example.pyramid_game.ui.level4.Level4Fragment"
+        android:label="Level4Fragment" />
+    <fragment
+        android:id="@+id/youLusePopUpFragment"
+        android:name="com.example.pyramid_game.ui.you_luse_pop_up.YouLusePopUpFragment"
+        android:label="fragment_you_luse_pop_up"
+        tools:layout="@layout/fragment_you_luse_pop_up" />
 </navigation>

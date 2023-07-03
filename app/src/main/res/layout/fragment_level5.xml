@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/orange"
-    tools:context=".ui.level2.Level2Fragment">
+    tools:context=".ui.level5.Level5Fragment">
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/imageView28"
         android:layout_width="170dp"
         android:layout_height="70dp"
         android:layout_marginTop="55dp"
@@ -20,86 +20,84 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView78"
+        android:id="@+id/textView81"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LEVEL 2"
+        android:text="LEVEL 5"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold"
         android:translationZ="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
 
-        app:layout_constraintEnd_toEndOf="@+id/imageView25"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toEndOf="@+id/imageView25"
-        app:layout_constraintStart_toStartOf="@+id/imageView25"
-        app:layout_constraintTop_toTopOf="@+id/imageView25" />
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28" />
 
     <ImageView
-        android:id="@+id/pyramidLevel2"
+        android:id="@+id/pyramidLevel5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="101dp"
-        android:src="@drawable/icon_pyramid_level_2"
+        app:layout_constraintBottom_toTopOf="@+id/whiteLine5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+        android:src="@drawable/icon_pyramid_level_5" />
 
     <ImageView
-        android:id="@+id/btn1Level2"
+        android:id="@+id/btn1Level5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="81dp"
-        android:src="@drawable/icon_first_button_level_2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/whiteLine2" />
+        app:layout_constraintTop_toBottomOf="@+id/whiteLine5"
+        android:src="@drawable/icon_first_button_level_5" />
 
     <ImageView
-        android:id="@+id/whiteLine2"
+        android:id="@+id/whiteLine5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="273dp"
         android:scaleType="centerCrop"
         android:src="@drawable/icon_white_line"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pyramidLevel2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView81" />
 
     <ImageView
-        android:id="@+id/btn2Level2"
+        android:id="@+id/btn2Level5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="81dp"
-        android:layout_marginEnd="80dp"
-        android:src="@drawable/icon_second_button_level_2"
+        android:layout_marginEnd="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/whiteLine2" />
+        app:layout_constraintTop_toBottomOf="@+id/whiteLine5"
+        android:src="@drawable/icon_second_button_level_5" />
 
     <ImageView
-        android:id="@+id/btn4Level2"
+        android:id="@+id/btn4Level5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
-        android:layout_marginEnd="80dp"
-
-        android:src="@drawable/icon_fourth_button_level_2"
+        android:layout_marginEnd="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn2Level2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn2Level5"
+        android:src="@drawable/icon_fourth_button_level_5" />
 
     <ImageView
-        android:id="@+id/btn3Level2"
+        android:id="@+id/btn3Level5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
-        android:src="@drawable/icon_third_button_level_2"
-        app:layout_constraintStart_toStartOf="@+id/btn1Level2"
-        app:layout_constraintTop_toBottomOf="@+id/btn1Level2" />
+        app:layout_constraintStart_toStartOf="@+id/btn1Level5"
+        app:layout_constraintTop_toBottomOf="@+id/btn1Level5"
+        android:src="@drawable/icon_third_button_level_5" />
 
     <TextView
-        android:id="@+id/textView69"
+        android:id="@+id/textView73"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="13dp"
@@ -107,12 +105,12 @@
         android:textColor="@color/white"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btn1Level2"
-        app:layout_constraintEnd_toEndOf="@+id/btn1Level2"
-        app:layout_constraintStart_toStartOf="@+id/btn1Level2" />
+        app:layout_constraintBottom_toTopOf="@+id/btn1Level5"
+        app:layout_constraintEnd_toEndOf="@+id/btn1Level5"
+        app:layout_constraintStart_toStartOf="@+id/btn1Level5" />
 
     <TextView
-        android:id="@+id/textView70"
+        android:id="@+id/textView74"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="13dp"
@@ -120,12 +118,12 @@
         android:textColor="@color/white"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btn1Level2"
-        app:layout_constraintEnd_toEndOf="@+id/btn2Level2"
-        app:layout_constraintStart_toStartOf="@+id/btn2Level2" />
+        app:layout_constraintBottom_toTopOf="@+id/btn1Level5"
+        app:layout_constraintEnd_toEndOf="@+id/btn2Level5"
+        app:layout_constraintStart_toStartOf="@+id/btn2Level5" />
 
     <TextView
-        android:id="@+id/textView71"
+        android:id="@+id/textView75"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
@@ -133,12 +131,12 @@
         android:textColor="@color/white"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/btn2Level2"
-        app:layout_constraintStart_toStartOf="@+id/btn2Level2"
-        app:layout_constraintTop_toBottomOf="@+id/btn4Level2" />
+        app:layout_constraintEnd_toEndOf="@+id/btn2Level5"
+        app:layout_constraintStart_toStartOf="@+id/btn2Level5"
+        app:layout_constraintTop_toBottomOf="@+id/btn4Level5" />
 
     <TextView
-        android:id="@+id/textView72"
+        android:id="@+id/textView76"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
@@ -146,7 +144,7 @@
         android:textColor="@color/white"
         android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/btn3Level2"
-        app:layout_constraintStart_toStartOf="@+id/btn3Level2"
-        app:layout_constraintTop_toBottomOf="@+id/btn4Level2" />
+        app:layout_constraintEnd_toEndOf="@+id/btn3Level5"
+        app:layout_constraintStart_toStartOf="@+id/btn3Level5"
+        app:layout_constraintTop_toBottomOf="@+id/btn4Level5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,5 +7,11 @@ enum class Screens {
     RULES,
     START,
     MEMBERS,
-    COLOURINFO
+    COLOURINFO,
+    SCORE,
+    LEVEL1,
+    LEVEL2,
+    LEVEL3,
+    LEVEL4,
+    LEVEL5,
 }

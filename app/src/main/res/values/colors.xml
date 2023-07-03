@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#5DAA3B</color>
+    <color name="pop_up_background">#1E232B</color>
 </resources>

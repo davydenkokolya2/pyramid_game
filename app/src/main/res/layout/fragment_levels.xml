@@ -52,7 +52,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView4" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/btnLevel1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -62,44 +62,44 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/btnLevel2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:src="@drawable/icon_level_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLevel1" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/btnLevel3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:src="@drawable/icon_level_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLevel2" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/btnLevel4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:src="@drawable/icon_level_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLevel3" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/btnLevel5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:src="@drawable/icon_level_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLevel4" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -121,9 +121,9 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel1"
+        app:layout_constraintStart_toStartOf="@+id/btnLevel1"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel1" />
 
     <TextView
         android:id="@+id/textView12"
@@ -134,9 +134,9 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintStart_toStartOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel2"
+        app:layout_constraintStart_toStartOf="@+id/btnLevel2"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel2" />
 
     <TextView
         android:id="@+id/textView13"
@@ -147,9 +147,9 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-        app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel3"
+        app:layout_constraintStart_toStartOf="@+id/btnLevel3"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel3" />
 
     <TextView
         android:id="@+id/textView14"
@@ -160,9 +160,9 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
-        app:layout_constraintStart_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel4"
+        app:layout_constraintStart_toStartOf="@+id/btnLevel4"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel4" />
 
     <TextView
         android:id="@+id/textView15"
@@ -173,9 +173,9 @@
         android:textColor="@color/white"
         android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintStart_toStartOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel5"
+        app:layout_constraintStart_toStartOf="@+id/btnLevel5"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel5" />
 
     <TextView
         android:id="@+id/textView16"
@@ -185,9 +185,9 @@
         android:text="@string/_1"
         android:textColor="@color/black"
         android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel1"
+        app:layout_constraintEnd_toEndOf="@+id/btnLevel1"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel1" />
 
     <TextView
         android:id="@+id/textView17"
@@ -197,9 +197,9 @@
         android:text="@string/_2"
         android:textColor="@color/black"
         android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel2"
+        app:layout_constraintEnd_toEndOf="@+id/btnLevel2"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel2" />
 
     <TextView
         android:id="@+id/textView18"
@@ -209,9 +209,9 @@
         android:text="@string/_3"
         android:textColor="@color/black"
         android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-        app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel3"
+        app:layout_constraintEnd_toEndOf="@+id/btnLevel3"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel3" />
 
     <TextView
         android:id="@+id/textView19"
@@ -221,9 +221,9 @@
         android:text="@string/_4"
         android:textColor="@color/black"
         android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
-        app:layout_constraintEnd_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel4"
+        app:layout_constraintEnd_toEndOf="@+id/btnLevel4"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel4" />
 
     <TextView
         android:id="@+id/textView20"
@@ -233,7 +233,7 @@
         android:text="@string/_5"
         android:textColor="@color/black"
         android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintEnd_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnLevel5"
+        app:layout_constraintEnd_toEndOf="@+id/btnLevel5"
+        app:layout_constraintTop_toTopOf="@+id/btnLevel5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
